@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "this is my portfoliooo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "aman",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "body-parser": "^1.19.2",
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.2.3",
+    "validator": "^13.7.0"
+  }
+}
